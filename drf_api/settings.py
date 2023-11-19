@@ -54,7 +54,8 @@ DEBUG = False
 ALLOWED_HOSTS = [
     '8000-mykki92-drfapi-erdcd6s9hgt.ws-eu106.gitpod.io',
     'localhost',
-    os.environ.get('ALLOWED_HOST'),
+    'drf-api-profiles-6c9bc5cc1b09.herokuapp.com/'
+    # os.environ.get('ALLOWED_HOST'),
 ]
 
 
